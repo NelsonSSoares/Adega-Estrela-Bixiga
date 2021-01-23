@@ -44,7 +44,7 @@
                     <ul class="navbar-nav ml-auto">
 
                         <li class="nav-item">
-                            <a href="" class="nav-link">Home</a>
+                            <a href="index.html" class="nav-link">Home</a>
                         </li>
 
                         <li class="nav-item">
@@ -58,7 +58,7 @@
                         <li class="nav-item divisor"></li>
 
                         <li class="nav-item">
-                            <a href="" class="btn btn-outline-success">Contatos & Pedidos</a>
+                            <a href="formcadped.html" class="btn btn-outline-success">Contatos & Pedidos</a>
                         </li>
 <!--
                         <li class="nav-item">
@@ -83,6 +83,14 @@
                      <p class="text-white">Promoções valídas por tempo determinado ou até durarem os estoques</p>
                    </div>    
                     <div id="carousel-promocao" class="carousel slide" data-ride="carousel"><!--Carousel-->
+
+                        <ol class="carousel-indicators">
+                            <li class="active" data-target="#carousel-promocao" data-slide-to="0"></li><!--indica a sequencia dos indicadores de acordo com a sequencia de imagens, inicializando do 0-->
+              
+                            <li data-target="#carousel-promocao" data-slide-to="1"></li>
+              
+                            <li data-target="#carousel-promocao" data-slide-to="2"></li>
+                          </ol>
                         
                         <div class="carousel-inner"><!--inner-->
                             <div class="carousel-item active">
@@ -176,8 +184,22 @@
         </div>
     </section><!--Localização-->
 
-    <footer><!--Rodapé-->
-        teste footer
+    <footer id="rodape"><!--Rodapé-->
+      <div class="container">
+          <div class="row">
+            <div class="col-md-4">
+                teste rodapé
+            </div>
+
+            <div class="col-md-4">
+                teste rodapé
+            </div>
+
+            <div class="col-md-4">
+                teste rodapé
+            </div>
+          </div>
+      </div>
     </footer><!--Rodapé-->
 
     <!-- JavaScript (Opcional) -->

@@ -104,3 +104,12 @@ LOCALIZAÇÃO
     margin-top: 25px;
     margin-bottom: 25px;
 }
+
+/*****
+RODAPÉ
+*****/
+
+#rodape{
+    background-color: black;
+    color: white;
+}
