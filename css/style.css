@@ -67,7 +67,7 @@ BANNER PROMOCAO
 }
 
 .destacador{
-    animation: destacador-promocao 1s 1s 9999 alternate;
+    animation: destacador-promocao 1s 0.3s 9999 alternate;
 }
 
 @keyframes destacador-promocao{
