@@ -136,8 +136,11 @@ LOCALIZAÇÃO
     background-color: #09671D;
 }
 .mapa{
-    margin-top: 25px;
-    margin-bottom: 25px;
+    background: rgba(0, 0, 0, 0.5);
+    
+}
+.local{
+    text-align: center;
 }
 
 /*****
@@ -147,4 +150,20 @@ RODAPÉ
 #rodape{
     background-color: black;
     color: white;
+}
+footer .navbar-nav a{
+    color: white;
+    font-size: 0.8em;
+    text-decoration: none;
+}
+
+footer .navbar-nav a:hover{
+    color: gray;
+}
+.ttexto{
+    font-size: 0.8em;
+ 
+}
+.centro{
+    text-align: center;
 }
