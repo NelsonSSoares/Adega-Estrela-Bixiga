@@ -5,7 +5,7 @@ body{
     background-color: #9C0008;
   
 }
-html,body , #home, #cadastro{
+html,body , #home, #cadastro, #localizacao,#contatos,#produtos{
     height: 100%;
     overflow-x: hidden; /* Esconde a barra de rolagem na horizontal*/
 }
@@ -142,6 +142,16 @@ LOCALIZAÇÃO
 .local{
     text-align: center;
 }
+/*******
+CONTATOS
+*******/
+
+.fundo-contato{
+    background-color: rgba(0, 0, 0, 0.5);
+    margin-top: 60px;
+}
+
+
 
 /*****
 RODAPÉ
@@ -167,4 +177,26 @@ footer .navbar-nav a:hover{
 .centro{
     text-align: center;
     
+}
+
+
+/***************************
+CONFIGS DA PAGINA FORMCADPED
+***************************/
+
+.cadastro-cliente{
+    margin-top: 110px;
+}
+
+fieldset{
+	border: 1px solid #ccc; /* Define borda */
+    
+}	
+
+legend{
+	font-weight: bold; /* Define a Extressura da fonte */
+}
+
+hr{
+   background-color:  #ccc;
 }

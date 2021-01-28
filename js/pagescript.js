@@ -1,0 +1,2 @@
+alert('Este conteudo ainda esta em construção, e seu Funcionamente esta INDISPONIVEL no momento');
+alert('Para fazer seu pedido, Entre em contato nos Nossos Telefones! \n 11 2268-1503 \n 11 2367-1503');
