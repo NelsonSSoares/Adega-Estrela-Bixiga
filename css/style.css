@@ -189,7 +189,7 @@ CONFIGS DA PAGINA FORMCADPED
 }
 
 fieldset{
-	border: 1px solid #ccc; /* Define borda */
+	border: 1px solid #09671D; /* Define borda */
     
 }	
 
@@ -199,4 +199,18 @@ legend{
 
 hr{
    background-color:  #ccc;
+}
+/*COMANDO QUE REMOVE AS SETAS DO INPUT NUMBER*/
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type="number"] {
+    -moz-appearance: textfield;
+}
+
+.fundo-form{
+    background-color: rgba(0, 0, 0, 0.5);
 }
