@@ -73,132 +73,140 @@
         </nav>
     </header><!--Navbar-->
 
-    <section id="cadastro"><!--cadastros cliente-->
-      <div class="container"><!--container cad cliente-->
-          <div class="row">
+    <main id="main">
+        
+        <section>
             
-            <div class="col-12 text-white cadastro-cliente">
+            <div class="container mb-5"><!--Container formulario-->
 
-                <form>
-                    <fieldset class="fundo-form">
-                        <legend style="text-align: center;">Cadastrar Cliente</legend>
-                        <div class="d-inline">
-                            <label for="nome">Nome:</label>
-                            <input name="nome" type="text" placeholder="João da Silva Santos" required autofocus maxlength="50"><!--maxlenght define o tamanho maximo de caracteres-->    
-                        </div>
-                        
-                        <div class="d-inline ml-2">
-                            <label for="data">Data de Nascimento:</label>
-                            <input type="date" name="data" id="" required>
-                        </div>
+                <div class="row justify-content-center">
+                    
+                    <div class="col-sm-12 col-md-10 col-lg-8">
 
-                        <div class="d-inline ml-2">
-                            <label for="cpf">CPF:</label>
-                            <input type="number" maxlength="11" placeholder="123.356.789-10 " required>
-                        </div>
+                        <form><!--Inicio Formulario responsivo-->
+                            <fieldset class="cadastro-cliente fundo-form">
+                                <legend>Cadastro de Cliente</legend>
 
-                        <div class="d-inline ml-2">
-                            <label for="sex">Sexo:</label>
-                            <input type="radio" name="sex">Masc
-                            <input type="radio" name="sex">Fem
-                        </div>
+                                <div class="form-row">
 
-                        <br>
-                        <br>
+                                    <div class="form-group col-sm-4">
+                                        <label for="nome">Nome:</label>
+                                        <input class="form-control" id="nome" name="nome" type="text" placeholder="João da Silva Santos" required autofocus maxlength="50"><!--maxlenght define o tamanho maximo de caracteres-->    
+                                    </div>
 
-                        <div class="d-inline">
-                            <label for="email">Email:</label>
-                            <input type="email" name="email" placeholder="123deoliveira4@hotmail.com" required>
-                        </div>
+                                    <div class="form-group col-sm-4">
+                                        <label for="data">Data de Nascimento:</label>
+                                        <input class="form-control" id="data" type="date" name="data" id="" required>
+                                    </div>
 
-                        <div class="d-inline">
-                            <label for="cel">Cel:</label>
-                            <input type="number" placeholder="91234-5678" maxlength="9" required>
-                        </div>
+                                    <div class="form-group col-sm-4">
+                                        <label for="cpf">CPF:</label>
+                                        <input class="form-control" type="number" maxlength="11" placeholder="123.356.789-10 " required id="cpf">
+                                    </div>
 
-                        <br>
-                        <hr>
-                        <br>
+                                
 
-                        <h5>Endereço de entrega:</h5>
-                        <div class="d-inline">
-                            <label for="rua">Logradouro:</label>
-                            <input type="text" maxlength="50" placeholder="Rua da Consolação" name="rua" required>
-                        </div>
+                                    <div class="form-group col-sm-4">
+                                        <label for="sex">Sexo:</label>
+                                        <input  type="radio" name="sex">Masc
+                                        <input  type="radio" name="sex">Fem
+                                    </div>
 
-                        <div class="d-inline">
-                            <label for="numero">Numero:</label>
-                            <input type="number" name="numero"  max="10000" maxlength="10000" placeholder="105" required>
-                        </div>
+                                    <div class="form-group col-sm-4">
 
-                        <div class="d-inline">
-                            <label for="bairro">Bairro:</label>
-                            <input type="text" maxlength="50" placeholder="Bela-Vista" name="bairro" required>
-                        </div>
+                                        <label for="email">Email:</label>
+                                        <input class="form-control" type="email" name="email" placeholder="123deoliveira4@hotmail.com" required>
 
+                                    </div>
 
-                        <div class="d-inline">
-                            <label for="cidade">Cidade:</label>
-                            <input type="text" maxlength="50" placeholder="São Paulo" name="cidade" required>
-                        </div>
+                                    <div class="form-group col-sm-4">
+                                        <label for="cel">Cel:</label>
+                                        <input class="form-control" type="number" placeholder="91234-5678" maxlength="9" required>
+                                    </div>
 
-                        
-                        <br>
-                        <br>
+                                </div>
 
-                        <div class="d-inline"><!--Estados-->
-                            <label for="estados">Estado:</label>
-                            <select name="estados" required>
-                            <option>Acre (AC)</option>
-                            <option>Alagoas (AL)</option>
-                            <option>Amapá (AP)</option>
-                            <option>Amazonas (AM)</option>
-                            <option>Bahia (BA)</option>
-                            <option>Ceará (CE)</option>
-                            <option>Distrito Federal (DF)</option>
-                            <option>Espírito Santo (ES)</option>
-                            <option>Goiás (GO)</option>
-                            <option>Maranhão (MA)</option>
-                            <option>Mato Grosso (MT)</option>
-                            <option>Mato Grosso do Sul (MS)</option>
-                            <option>Minas Gerais (MG)</option>
-                            <option>Pará (PA)</option>
-                            <option>Paraíba (PB)</option>
-                            <option>Paraná (PR)</option>
-                            <option>Pernambuco (PE)</option>
-                            <option>Piauí (PI)</option>
-                            <option>Rio de Janeiro (RJ)</option>
-                            <option>Rio Grande do Norte (RN)</option>
-                            <option>Rio Grande do Sul (RS)</option>
-                            <option>Rondônia (RO)</option>
-                            <option>Roraima (RR)</option>
-                            <option>Santa Catarina (SC)</option>
-                            <option>São Paulo (SP)</option>
-                            <option>Sergipe (SE)</option>
-                            <option>Tocantins (TO)</option>
-                            </select>
-                        </div><!--/Estados-->
+                                <br>
+                                <hr>
+                                <br>    
+                                <legend>Endereço para entrega</legend>
+                                
+                                <div class="form-row">
+                                    
+                                    <div class="form-group col-sm-6">
+                                        <label for="rua">Logradouro:</label>
+                                        <input class="form-control" type="text" maxlength="50" placeholder="Rua da Consolação" name="rua" required>
+                                    </div>
 
-                        <div class="d-inline">
-                            <label for="cep">CEP:</label>
-                            <input type="number" placeholder="01314-001" maxlength="8">
-                        </div>
+                                    <div class="form-group col-sm-2">
+                                        <label for="numero">Numero:</label>
+                                        <input class="form-control" type="number" name="numero"  max="10000" maxlength="10000" placeholder="105" required>
+                                    </div>
 
-                        <br>
-                        <br>
-                       
-                        <button type="submit" class="btn btn-outline-success col-12">Cadastrar</button>
-                        
-                
-                    </fieldset>
-                </form>
+                                    <div class="form-group col-sm-4">
+                                        <label for="bairro">Bairro:</label>
+                                        <input class="form-control" type="text" maxlength="50" placeholder="Bela-Vista" name="bairro" required>
+                                    </div>
 
-            </div>
+                                    <div class="form-group col-sm-5">
+                                        <label for="cidade">Cidade:</label>
+                                        <input class="form-control" type="text" maxlength="50" placeholder="São Paulo" name="cidade" required>
+                                    </div>
 
+                                    <div class="form-group col-sm-4">
+                                        <label for="estados">Estado:</label>
+                                        <select class="form-control" name="estados" required>
+                                        <option>Acre (AC)</option>
+                                        <option>Alagoas (AL)</option>
+                                        <option>Amapá (AP)</option>
+                                        <option>Amazonas (AM)</option>
+                                        <option>Bahia (BA)</option>
+                                        <option>Ceará (CE)</option>
+                                        <option>Distrito Federal (DF)</option>
+                                        <option>Espírito Santo (ES)</option>
+                                        <option>Goiás (GO)</option>
+                                        <option>Maranhão (MA)</option>
+                                        <option>Mato Grosso (MT)</option>
+                                        <option>Mato Grosso do Sul (MS)</option>
+                                        <option>Minas Gerais (MG)</option>
+                                        <option>Pará (PA)</option>
+                                        <option>Paraíba (PB)</option>
+                                        <option>Paraná (PR)</option>
+                                        <option>Pernambuco (PE)</option>
+                                        <option>Piauí (PI)</option>
+                                        <option>Rio de Janeiro (RJ)</option>
+                                        <option>Rio Grande do Norte (RN)</option>
+                                        <option>Rio Grande do Sul (RS)</option>
+                                        <option>Rondônia (RO)</option>
+                                        <option>Roraima (RR)</option>
+                                        <option>Santa Catarina (SC)</option>
+                                        <option>São Paulo (SP)</option>
+                                        <option>Sergipe (SE)</option>
+                                        <option>Tocantins (TO)</option>
+                                        </select>
+                                    </div>
 
-          </div>
-      </div><!--/container cad cliente-->
-    </section><!--/cadastros cliente-->
+                                    <div class="form-group col-sm-3">
+                                        <label for="cep">CEP:</label>
+                                        <input class="form-control" type="number" placeholder="01314-001" maxlength="8" required>
+                                    </div>
+
+                                </div>
+
+                                <button type="submit" class="btn btn-outline-success col-12">Cadastrar</button>
+                                
+                            </fieldset>
+                        </form><!--Fim formulario-->
+
+                    </div>
+
+                </div>
+
+            </div><!--/fim formulario-->
+        
+        </section>
+
+    </main>
 
     <footer id="rodape"><!--Rodapé-->
         <div class="container">

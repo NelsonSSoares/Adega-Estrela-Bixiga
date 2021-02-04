@@ -3,9 +3,9 @@ LAYOUT
 *****/
 body{
     background-color: #9C0008;
-  
+    color: #fff;
 }
-html,body , #home, #cadastro, #localizacao,#contatos,#produtos{
+html,body , #home, #cadastro, #localizacao,#contatos,#produtos,#main{
     height: 100%;
     overflow-x: hidden; /* Esconde a barra de rolagem na horizontal*/
 }
@@ -185,7 +185,7 @@ CONFIGS DA PAGINA FORMCADPED
 ***************************/
 
 .cadastro-cliente{
-    margin-top: 110px;
+    margin-top: 120px;
 }
 
 fieldset{
@@ -194,7 +194,8 @@ fieldset{
 }	
 
 legend{
-	font-weight: bold; /* Define a Extressura da fonte */
+    font-weight: bold; /* Define a Extressura da fonte */
+    text-align: center;
 }
 
 hr{
