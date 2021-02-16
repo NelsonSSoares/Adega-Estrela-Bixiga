@@ -7,6 +7,7 @@ body{
 }
 html,body , #home, #cadastro, #localizacao,#contatos,#produtos,#main{
     height: 100%;
+    
     overflow-x: hidden; /* Esconde a barra de rolagem na horizontal*/
 }
 
@@ -215,3 +216,20 @@ input[type="number"] {
 .fundo-form{
     background-color: rgba(0, 0, 0, 0.5);
 }
+
+/***********************
+CONFIG DA PAG DE TABELA
+************************/
+
+#tabela{
+    margin-top: 130px;
+}
+
+.fundo-menu{
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.table-hover tbody tr:hover td, .table-hover tbody tr:hover th { /* esquema para substituir a cor quando o mouse estiver encima da tabela*/
+    background-color: green;
+    cursor: pointer;
+  }

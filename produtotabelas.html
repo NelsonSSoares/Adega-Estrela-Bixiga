@@ -73,8 +73,151 @@
         </nav>
     </header><!--Navbar-->
 
-    <section id="produtos">
+    <section id="produtos"><!--inicio principal-->
+        <div id="tabela">
+            <div class="container">
+                <div class="row fundo-menu">
 
+                    <div class="col-md-3 pb-2" style="border: 2px solid green;">
+                        <h1 class="text-center">Bebidas</h1>
+                        <div class="carousel slide" data-ride="carousel"><!--Criação do carousel-->
+                            <div class="carousel-inner">
+        
+                                <div class="carousel-item active"><!-- item do carousel-->
+                                    <img src="img/skol1lt.png" class="img-fluid">
+                                </div>
+        
+                                <div class="carousel-item"><!-- item do carousel-->
+                                    <img src="img/redlabel.png" class="img-fluid">
+                                </div>
+        
+                                <div class="carousel-item"><!-- item do carousel-->
+                                    <img src="img/josecuervo.png" class="img-fluid">
+                                </div>
+                            </div>   
+                            <p>Consulte o Preços de Nossos Whiskys, Tequilas, Vodkas
+                                e muito mais...
+                            </p>
+                            <a href="#bebidas" class="btn btn-outline-success">Consultar Tabela</a>
+                        </div> 
+                    </div>
+        
+                    <div class="col-md-3 pb-2" style="border: 2px solid green;">
+                        <h1 class="text-center">Refrigerantes</h1>
+                        <div class="carousel slide" data-ride="carousel"><!--Criação do carousel-->
+                            <div class="carousel-inner">
+        
+                                <div class="carousel-item active"><!-- item do carousel-->
+                                    <img src="img/skol1lt.png" class="img-fluid">
+                                </div>
+        
+                                <div class="carousel-item"><!-- item do carousel-->
+                                    <img src="img/redlabel.png" class="img-fluid">
+                                </div>
+        
+                                <div class="carousel-item"><!-- item do carousel-->
+                                    <img src="img/josecuervo.png" class="img-fluid">
+                                </div>
+                                <p>
+                                    Consulte o preço de variados refrigerantes, Coca-cola,
+                                    Guaraná, Soda e muito mais...
+                                </p>
+                                <a href="#refrigerantes" class="btn btn-outline-success">Consultar Tabela</a>
+                            </div>   
+                        </div> 
+                    </div>
+        
+                    <div class="col-md-3 pb-2" style="border: 2px solid green;">
+                        <h1 class="text-center">Sucos</h1>
+                        <div class="carousel slide" data-ride="carousel"><!--Criação do carousel-->
+                            <div class="carousel-inner">
+        
+                                <div class="carousel-item active"><!-- item do carousel-->
+                                    <img src="img/skol1lt.png" class="img-fluid">
+                                </div>
+        
+                                <div class="carousel-item"><!-- item do carousel-->
+                                    <img src="img/redlabel.png" class="img-fluid">
+                                </div>
+        
+                                <div class="carousel-item"><!-- item do carousel-->
+                                    <img src="img/josecuervo.png" class="img-fluid">
+                                </div>
+                            </div>
+                            <p>
+                                Consulte nossas opções de Sucos.
+                                Suco Del Valle, X-tapa, Suco do bem entre outros..
+                            </p>
+                            <a href="#sucos" class="btn btn-outline-success">Consultar Tabela</a>   
+                        </div> 
+                    </div>
+        
+                    <div class="col-md-3 pb-2" style="border: 2px solid green;">
+                        <h1 class="text-center">Águas</h1>
+                        <div class="carousel slide" data-ride="carousel"><!--Criação do carousel-->
+                            <div class="carousel-inner">
+        
+                                <div class="carousel-item active"><!-- item do carousel-->
+                                    <img src="img/skol1lt.png" class="img-fluid">
+                                </div>
+        
+                                <div class="carousel-item"><!-- item do carousel-->
+                                    <img src="img/redlabel.png" class="img-fluid">
+                                </div>
+        
+                                <div class="carousel-item"><!-- item do carousel-->
+                                    <img src="img/josecuervo.png" class="img-fluid">
+                                </div>
+                            </div>
+                            <p>
+                                Temos Aguas minerais de variados Tamanhos e Marcas.
+                                500ml, 1,5lt e 20 Lts com e sem Gás!
+                            </p>
+                            <a href="#agua" class="btn btn-outline-success">Consultar Tabela</a>
+                        </div> 
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="tabelas">
+        <h2 class="bg-success text-white text-center">BEBIDAS</h2>
+        <div id="bebidas">
+            <table class="table table-hover table-striped">
+                <thead><!--Tag que indica cabeçalho da tabela, aparecera em impressoes em todas as paginas e utilizado para paginação alem de aplicar formatações especificas-->
+
+                  <tr><!--Table row, linha da tabela-->
+                    <th>Produto</th>
+                    <th>Quantidade</th>
+                    <th>Preço</th>
+                  </tr>
+                </thead>
+          
+                <tbody><!--Corpo da tabela, aqui pode-se aplicar paginações formatações especificas, alterando o conteudo sem alterar o cabeçalho-->
+                  <tr>
+                    <td>Iphone X</td>
+                    <td>Apple</td>
+                    <td>R$ 6.999</td>
+                  </tr>
+                  <tr>
+                    <td>Nexus 5</td>
+                    <td>LG</td>
+                    <td>R$ 999</td>
+                  </tr>
+                  <tr>
+                    <td>Notebook VAIO</td>
+                    <td>Sony</td>
+                    <td>R$ 1.999</td>
+                  </tr>
+                </tbody>
+          
+                <tfoot><!--rodapé da tabela, aperecera em todsas as paginas incluse nas impressoes-->
+                  totalizador
+                </tfoot>
+          
+              </table>
+        </div>
     </section>
 
     <footer id="rodape"><!--Rodapé-->
@@ -151,7 +294,7 @@
   
     <!-- JavaScript (Opcional) -->
     <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
-    <script src="js/pagescript.js"></script>
+    
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
