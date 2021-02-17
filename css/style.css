@@ -230,6 +230,6 @@ CONFIG DA PAG DE TABELA
 }
 
 .table-hover tbody tr:hover td, .table-hover tbody tr:hover th { /* esquema para substituir a cor quando o mouse estiver encima da tabela*/
-    background-color: green;
+    background-color:  #09671D;
     cursor: pointer;
   }
