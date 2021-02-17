@@ -5,7 +5,7 @@ body{
     background-color: #9C0008;
     color: #fff;
 }
-html,body , #home, #cadastro, #localizacao,#contatos,#produtos,#main{
+html,body , #home, #cadastro, #localizacao,#contatos,#main{
     height: 100%;
     
     overflow-x: hidden; /* Esconde a barra de rolagem na horizontal*/
@@ -232,4 +232,9 @@ CONFIG DA PAG DE TABELA
 .table-hover tbody tr:hover td, .table-hover tbody tr:hover th { /* esquema para substituir a cor quando o mouse estiver encima da tabela*/
     background-color:  #09671D;
     cursor: pointer;
-  }
+}
+
+.margem-pesquisa{
+    margin-top: 78px;
+    margin-bottom: 75px;
+}
